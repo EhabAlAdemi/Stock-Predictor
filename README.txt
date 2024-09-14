@@ -1,0 +1,6 @@
+Name: Ehab Al-Ademi
+ID: 202170330
+
+This project uses the Orange Data Mining platform to predict stock prices for three leading tech companies: Intel, Apple, and Nvidia. Stock data from 2009 to August 2024 serves as the training dataset, allowing the development of predictive models using Support Vector Machines (SVM), Random Forest, and Logistic Regression. The target for prediction is a "Label" column, which returns 1 if the company's closing stock price increases by more than 2% over two business days and 0 otherwise. This binary classification helps gauge whether a significant rise in stock prices is expected within a short time frame.
+
+A separate dataset from September 1st to 14th, 2024, serves as the testing dataset. This recent data allows the models to be evaluated on unseen information to assess their performance and predictive accuracy. By leveraging three different models, the project offers a comparative approach to stock price forecasting, aiming to identify which machine learning algorithm provides the most reliable predictions in the tech sector.

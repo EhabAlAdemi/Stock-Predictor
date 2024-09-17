@@ -2,6 +2,13 @@
 ### ID: 202170330
 ### Group 2
 
+## Note
+The Depth First Search Method Homework can be found attached in the Repository above. The program asks creates a node then asks how many nodes are attached to it. The program then recurses back into itself asking how many nodes are attached to each of the created nodes in the previous iteration. It continues with this until all nodes and subnodes have been titled. Then, the user is asked to choose the starting node and target node before finding computing thee search method required to find the target node.
+
+This program implements a Depth-First Search (DFS) algorithm with a simple user interface, allowing the user to define a graph interactively. The `dfs` function performs a recursive search starting from a given node, visiting each node deeply along one path before backtracking to explore other branches. The function marks each node as visited to prevent revisiting and prints the order in which nodes are visited during the traversal. 
+
+The user interaction is handled by the `get_graph_input` function, which prompts the user to input the number of nodes in the graph and the connections (edges) for each node. After constructing the graph, the `main` function confirms the graph's structure and asks the user for the starting node. The program then runs the DFS algorithm from the specified starting node, printing the traversal order. This allows the user to visualize the depth-first traversal of the graph based on their input.
+
 # Overview
 This project uses the Orange Data Mining platform to predict stock prices for three leading tech companies: Intel, Apple, and Nvidia. Stock data from 2009 to August 2024 serves as the training dataset, allowing the development of predictive models using Support Vector Machines (SVM), Random Forest, and Logistic Regression. The target for prediction is a "Label" column, which returns 1 if the company's closing stock price increases by more than 2% over two business days and 0 otherwise. This binary classification helps gauge whether a significant rise in stock prices is expected within a short time frame.
 
@@ -34,3 +41,5 @@ Each model was chosen for its strengths in classification tasks: SVM for its pre
 
 # Testing and Evaluation
 The testing dataset, which includes data from the first two weeks of September 2024, was used to evaluate the models. By analyzing the performance of each model on this fresh dataset, the project assesses how well the predictions hold up in real-time market conditions. The comparative evaluation of the SVM, Random Forest, and Logistic Regression models will help in determining the most reliable predictor for stock price movements among the three companies.
+
+
